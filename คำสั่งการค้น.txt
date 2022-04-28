@@ -1,0 +1,7 @@
+{title:{$regex:"iron man","$options": "i"}} #ใช่ในช่อง search ช่วยในการหาตัวที่มีkeywords iron man
+
+{year:{$gt:2000}} #เเสดงช่วงในปี 2000
+
+{year:{$gt:2000},title:{$regex:"iron man","$options": "i"}} #ค้นหาในช่วงปี 2000 มี iron man
+
+{"names.imdb_name_id":"nm0000375"} #ค้นหาหนังที่ robert downy เเสดง
